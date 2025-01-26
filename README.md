@@ -1,0 +1,1 @@
+This repository demonstrates a common error in Dockerfiles: forgetting to copy the application code into the image.  The initial `Dockerfile` is missing the crucial `COPY` instruction to bring in the application's `main.py` and `requirements.txt` files, leading to a build failure. The `DockerfileSolution.txt` file provides the corrected version.
